@@ -28,7 +28,7 @@ public class AgentClientGui extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         startContainer();
-        primaryStage.setTitle("Agent Client");
+        primaryStage.setTitle("Agent Joueur");
         BorderPane root=new BorderPane();
         Label labelMsg=new Label("Message :");
         TextField textFieldMsg=new TextField();
@@ -41,9 +41,9 @@ public class AgentClientGui extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
         showMessage("*************************************************");
-        showMessage("    Bienvenue dans le choix de nombre magic      ");
+        showMessage("    Bienvenue dans le choix d'un nombre secret   ");
         showMessage("*************************************************");
-        showMessage("        Choisissez un nombre entre 0 et 10       ");
+        showMessage("        Choisissez un nombre entre 0 et 100      ");
         showMessage("*************************************************");
         buttonSend.setOnAction(event -> {
             GuiEvent guiEvent=new GuiEvent(this,1);
@@ -58,7 +58,7 @@ public class AgentClientGui extends Application {
         ProfileImpl profile=new ProfileImpl();
         profile.setParameter(ProfileImpl.MAIN_HOST,"localhost");
         AgentContainer container=runtime.createAgentContainer(profile);
-        AgentController agentController=container.createNewAgent("Client-"+ UUID.randomUUID().toString(),"ma.enset.sma.AgentClient",new Object[]{this});
+        AgentController agentController=container.createNewAgent("Joueur-"+ UUID.randomUUID().toString(),"ma.enset.sma.AgentClient",new Object[]{this});
         agentController.start();
     }
 

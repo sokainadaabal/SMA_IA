@@ -16,7 +16,7 @@ public class AgentServer extends GuiAgent {
     List<String> clientAll = new ArrayList<>();
     @Override
     protected void setup() {
-        nomberChoix= getRandomNumber(0,10);
+        nomberChoix= getRandomNumber(0,100);
         System.out.println("***  la méthode setup *****");
         agentServerGui=(AgentServerGui)getArguments()[0];
         agentServerGui.setAgentServer(this);
@@ -50,7 +50,7 @@ public class AgentServer extends GuiAgent {
 
     }
 
-    public int getRandomNumber(int min, int max) {
+    protected int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }
     @Override
@@ -72,7 +72,7 @@ public class AgentServer extends GuiAgent {
     protected void onGuiEvent(GuiEvent guiEvent) {
         String parameter =(String) guiEvent.getParameter(0);
         ACLMessage message=new ACLMessage(ACLMessage.REQUEST);
-        message.addReceiver(new AID("Client",AID.ISLOCALNAME));
+        message.addReceiver(new AID("Joueur",AID.ISLOCALNAME));
         message.setContent(parameter);
         send(message);
     }
@@ -87,12 +87,12 @@ public class AgentServer extends GuiAgent {
     }
     protected  String testSiLeNumber(Integer number,String nomClient){
         if(number==nomberChoix){
-            nomberChoix=getRandomNumber(0,10);
+            nomberChoix=getRandomNumber(0,100);
             envoyerAtous(nomClient);
             return "Bravo, vous avez fait le bon choix. \n \t le number est réinitialisé.";
         }
         else if (number<nomberChoix){
-            return  "Plus Grand!";
+            return  "Plus Grand";
         }
         else return "Plus Petit";
 
