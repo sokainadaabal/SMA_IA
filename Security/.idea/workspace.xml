@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df8e13f-e692-459b-8305-a97439984e6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jade.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/aes/ClientAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/aes/ClientContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/aes/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/aes/ServerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/aes/ServerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/ClientAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/ClientContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/GenereteRSAKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/ServerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/rsa/ServerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/signature/ClientAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/signature/ClientContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/signature/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/signature/ServerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ma/enset/bdcc/signature/ServerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/TP_ChoixNumber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683554076211</updated>
       <workItem from="1683554077422" duration="4167000" />
-      <workItem from="1683562166132" duration="4149000" />
+      <workItem from="1683562166132" duration="5181000" />
     </task>
     <servers />
   </component>
