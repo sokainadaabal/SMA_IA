@@ -13,7 +13,7 @@ Des notions à connaitre :
   - la clé secrète privée équivalente, pour déchiffrer cette même donnée.
 
 ## Confidentialité des données ( Utilisation de l'algorithme AES)
-### L'algorithme AES
+### C'est quoi  AES ?
 L'algorithme AES (Advanced Encryption Standard) est une norme de chiffrement symétrique utilisée pour sécuriser les communications et protéger les données sensibles.
 L'AES utilise la même clé pour chiffrer et déchiffrer un texte.
 Le cryptage AES supporte différentes tailles de clé : 128, 192 ou 256 bits. En fonction de ces tailles de clé, le nombre d’opérations nécessaires par séquence pour le cryptage des blocs diffère :
@@ -142,7 +142,7 @@ public class MainContainer {
     }
 }
 ```
-### Implementation
+### Execution 
 - ```MainContainer```
 
 ![image](https://github.com/sokainadaabal/SMA_IA/assets/48890714/dac9ad2e-20d1-49b7-8d72-8e7eda992d22)
@@ -160,7 +160,7 @@ public class MainContainer {
 ![image](https://github.com/sokainadaabal/SMA_IA/assets/48890714/7e747425-f89d-479b-8b07-bc833a1fda5c)
 
 ## Sécurité des communications ( Utilisation de l'algorithme RSA)
-### L'algorithme RSA
+###  C'est quoi RSA ?
 L'algorithme RSA (Rivest, Shamir, Adleman) est un algorithme de cryptographie asymétrique largement utilisé pour le chiffrement et la signature numérique.
 L'algorithme RSA repose sur le concept de la cryptographie à clé publique, où une paire de clés distinctes est utilisée : une clé publique et une clé privée. La clé publique est partagée avec les autres utilisateurs, tandis que la clé privée est gardée secrète par le propriétaire.
 ### Application de l'algorithme RSA
@@ -302,7 +302,7 @@ public class ServerContainer {
 
 > meme code utiliser dans AES, il y a un changement dans les classes ClientAgent et ServerAgent. 
 > Dans le classe ServerContainer et ClientConatiner on utilise le cle privee et public generer par le class GenereteRSAKeys.
-### Implementation
+### Execution 
 - ```GenereteRSAKeys```
 
 ![image](https://github.com/sokainadaabal/SMA_IA/assets/48890714/83ca8971-2963-4976-9905-4dec5a5446aa)
@@ -316,7 +316,7 @@ public class ServerContainer {
 ![image](https://github.com/sokainadaabal/SMA_IA/assets/48890714/2b65e854-ddb9-4a70-a29b-9e6759450c56)
 
 ## Intégrité des données (L'algorithme SHA256withRSA)
-### L'algorithme SHA256withRSA
+### C'est quoi SHA256withRSA ?
 L'algorithme "SHA256withRSA" est une combinaison de deux algorithmes, à savoir SHA-256 (Secure Hash Algorithm 256 bits) et RSA (Rivest, Shamir, Adleman). Il est souvent utilisé en cryptographie pour la signature numérique des données.
 ### Application de l'algorithme SHA256withRSA
 Dans le package ``` ma.enset.bdcc.signature ```, nous avons faire le code de l'implementation de SHA256withRSA:
@@ -400,7 +400,7 @@ public class ServerAgent extends Agent {
     }
 }
 ```
-### Implementation
+### Execution 
 - ``` ClientContainer ```
 
 ![image](https://github.com/sokainadaabal/SMA_IA/assets/48890714/e4083484-7aaf-402f-b1d6-ba6badd2aec9)
