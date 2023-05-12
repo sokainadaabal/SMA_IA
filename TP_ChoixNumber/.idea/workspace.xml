@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252fd536-a37f-44ee-be4a-21f93109cf9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Security/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ClientAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ClientAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ClientContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/MainContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ServerAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ServerAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/aes/ServerContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ClientAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ClientAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ClientContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/GenereteRSAKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/MainContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ServerAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ServerAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/rsa/ServerContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ClientAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ClientAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ClientContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/MainContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ServerAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ServerAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Security/out/production/Security/ma/enset/bdcc/signature/ServerContainer.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/TP_SMA_DF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/BuyerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/BuyerAgentGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/MainContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/SellerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/SellerAgentGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_SMA_DF/src/ma/enset/bdcc/SimpleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +29,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a.DESKTOP-1V51SMC/OneDrive/Documents/GitHub/SokainaDaabalJEE/Activité Pratique N°6&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a.DESKTOP-1V51SMC/OneDrive/Documents/GitHub/SokainaDaabalJEE/Activité Pratique N°6",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.37284237"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +53,8 @@
       <workItem from="1683413813524" duration="47000" />
       <workItem from="1683553191533" duration="31000" />
       <workItem from="1683666511429" duration="9000" />
+      <workItem from="1683667046780" duration="598000" />
+      <workItem from="1683903964861" duration="29000" />
     </task>
     <servers />
   </component>

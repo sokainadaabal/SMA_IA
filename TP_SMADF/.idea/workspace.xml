@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0183afc-293f-4518-94c2-3a359fa52d0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_SMADF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jade.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuyerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuyerAgentGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SellerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SellerAgentGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PhNeWuSC92Pe80pC4U01ForfBS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a.DESKTOP-1V51SMC/OneDrive/Documents/GitHub/SMA_IA/TP_SMADF/jade.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a.DESKTOP-1V51SMC\OneDrive\Documents\GitHub\SMA_IA\TP_SMADF" />
+      <recent name="C:\Users\a.DESKTOP-1V51SMC\OneDrive\Documents\GitHub\SMA_IA\TP_SMADF\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SimpleContainer">
+    <configuration name="MainContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainContainer" />
+      <module name="TP_SMADF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleContainer" />
+      <module name="TP_SMADF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleContainer" />
+        <item itemvalue="Application.MainContainer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0183afc-293f-4518-94c2-3a359fa52d0e" name="Changes" comment="" />
+      <created>1683905852122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683905852122</updated>
+      <workItem from="1683905854573" duration="676000" />
+      <workItem from="1683906577824" duration="2008000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
