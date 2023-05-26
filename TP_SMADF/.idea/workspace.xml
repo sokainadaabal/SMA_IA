@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0183afc-293f-4518-94c2-3a359fa52d0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_SMADF.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jade.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuyerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuyerAgentGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SellerAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SellerAgentGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_ChoixNumber/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_GA_SMA/src/GAApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_GA_SMA/src/GAUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_SMADF/SellerAgentGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_SMADF/SellerAgentGui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SellerAgentGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SellerAgentGui.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +42,16 @@
       <recent name="C:\Users\a.DESKTOP-1V51SMC\OneDrive\Documents\GitHub\SMA_IA\TP_SMADF\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleContainer">
+  <component name="RunManager" selected="Application.SellerAgentGui">
     <configuration name="MainContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainContainer" />
+      <module name="TP_SMADF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellerAgentGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SellerAgentGui" />
       <module name="TP_SMADF" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SellerAgentGui" />
         <item itemvalue="Application.SimpleContainer" />
         <item itemvalue="Application.MainContainer" />
       </list>
@@ -81,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683905852122</updated>
       <workItem from="1683905854573" duration="676000" />
-      <workItem from="1683906577824" duration="2008000" />
+      <workItem from="1683906577824" duration="2649000" />
+      <workItem from="1685108589651" duration="17000" />
     </task>
     <servers />
   </component>
