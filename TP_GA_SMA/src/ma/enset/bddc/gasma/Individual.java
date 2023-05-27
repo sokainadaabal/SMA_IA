@@ -1,4 +1,4 @@
-package ma.enset.bddc;
+package ma.enset.bddc.gasma;
 
 import java.util.Arrays;
 import java.util.Random;
