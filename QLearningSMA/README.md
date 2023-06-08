@@ -32,7 +32,8 @@ Le Principe de fonctionnement de l'algorithme  Q-learning peut être décrit en 
       - Rt est la récompense observée après avoir effectué l'action At dans l'état St.
       - γ (gamma) est le facteur d'actualisation, qui pondère l'importance des récompenses futures par rapport aux récompenses immédiates.
       - max(Q(St+1, a)) représente la valeur maximale de la fonction Q pour l'état suivant St+1 et toutes les actions possibles a.
-
+      - ε : exploration rate (entre 0 et 1) qui permet de déterminer la probabilité que l'agent explore ou exploite l'environnement.
+    
     La mise à jour de la fonction Q se base sur l'erreur de prédiction entre la valeur actuelle Q(St, At) et l'estimation de la récompense attendue Rt + γ * max(Q(St+1, a)). 
    
     En utilisant cette formule, l'agent ajuste progressivement les valeurs Q pour chaque paire état-action en fonction des récompenses observées et des estimations des récompenses futures. Cette mise à jour itérative permet à l'agent d'apprendre à prendre des décisions optimales dans l'environnement donné.
@@ -40,6 +41,8 @@ Le Principe de fonctionnement de l'algorithme  Q-learning peut être décrit en 
 
 _L'algorithme Q-learning est largement utilisé dans l'apprentissage par renforcement pour résoudre des problèmes où l'agent interagit avec un environnement dynamique et apprend à optimiser ses actions en fonction des récompenses reçues_.
 
+## Deep Q-Learning 
+Le Deep Q-Learning permet de résoudre des problèmes plus complexes en utilisant des représentations non linéaires et en exploitant les capacités d'apprentissage profond des réseaux neuronaux. Il a été largement utilisé avec succès dans des domaines tels que les jeux vidéo, la robotique et la recherche opérationnelle.
 
 ## Réalisation
   - [Q-learning Sequentielle](https://github.com/sokainadaabal/SMA_IA/tree/main/QLearningSMA/src/ma/enset/ImpSequentiel)
