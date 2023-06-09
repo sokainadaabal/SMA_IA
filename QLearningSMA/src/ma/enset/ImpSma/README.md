@@ -1,4 +1,4 @@
-# SMA
+# Implementation de Q-learning avec SMA
 
 ## Le principe de mon Implementation 
 Dans cette implémentation, nous utilisons un agent distinct pour chaque case de la grille. Chaque agent a les mêmes actions possibles et la même grille à résoudre, mais ils peuvent avoir des points de départ différents. L'objectif de chaque agent est de trouver le chemin le plus court pour aller de sa case de départ à la case d'arrivée.
@@ -9,7 +9,7 @@ En résumé, chaque agent travaille de manière indépendante pour trouver le ch
 
 ## Implémentation
 
-- ```QLUtils```
+#### ```QLUtils```
   Cette classe contient des constantes qui peuvent être utilisées dans l'implémentation du Q-learning.
   - ```ALPHA``` : Taux d'apprentissage (valeur entre 0 et 1) qui contrôle l'influence de la mise à jour sur la fonction Q existante. 
   - ```GAMMA``` : Facteur d'actualisation (valeur entre 0 et 1) qui pondère l'importance des récompenses futures par rapport aux récompenses immédiates.
@@ -46,7 +46,8 @@ public class QLUtils {
    }; // presente les recompense
 }
 ```
-- Agent : ```QAgent ```
+
+#### Agent : ```QLAgent ```
   La classe "QLAgent" est un agent spécifique qui implémente le Q-learning. Elle contient les méthodes nécessaires pour initialiser l'agent, choisir et exécuter des actions, exécuter l'algorithme Q-learning, afficher la Q-table et envoyer la Q-table à l'agent central.
   1. ``` setup() ``` : Cette méthode initialise l'agent et définit son comportement séquentiel. Elle est appelée lors du démarrage de l'agent. Elle affiche un message de bienvenue et ajoute les sous-comportements nécessaires à l'exécution de l'algorithme Q-learning. 
   2. ``` chooseAction(double eps) ``` : Cette méthode est utilisée pour choisir une action à exécuter par l'agent. Elle prend en paramètre un epsilon (eps) qui contrôle l'exploration et l'exploitation. Si un nombre aléatoire est inférieur à eps, l'agent effectue une exploration en choisissant une action aléatoire parmi les actions possibles. Sinon, il effectue une exploitation en choisissant l'action avec la valeur Q maximale pour l'état actuel. 
@@ -57,7 +58,7 @@ public class QLUtils {
   7. ``` finished()``` : Cette méthode vérifie si l'agent a atteint l'état final. Elle renvoie true si l'état actuel de l'agent correspond à l'état final défini dans la grille. 
   8. ``` EnvoyerQTable() ``` : Cette méthode est utilisée pour envoyer la Q-table à l'agent central. Elle recherche l'agent central dans le répertoire des services, crée un message ACL INFORM contenant les valeurs de la Q-table, et envoie le message à l'agent central. 
   9. ``` takeDown() ``` : Cette méthode est appelée lors de l'arrêt de l'agent. Elle permet de se désenregistrer du répertoire des services.
-- Master Agent : ```MasterAgent```
+#### Master Agent : ```MasterAgent```
   La classe MasterAgent représente l'agent central chargé de recevoir la Q-table des agents individuels et de l'afficher
   1. ``` setup() ``` : Cette méthode est appelée lors du démarrage de l'agent. Elle enregistre l'agent central dans le répertoire des services en spécifiant son nom et le type de service ("QLearningAgent"). Ensuite, elle ajoute un comportement cyclique qui permet à l'agent central de recevoir les messages contenant les Q-tables des agents individuels. 
   2. ``` action() ``` : Cette méthode est exécutée de manière cyclique par l'agent central. Elle reçoit les messages ACL et extrait la Q-table envoyée par l'agent individuel. La Q-table est convertie en un tableau qTable de type double[][]. Ensuite, la Q-table est affichée ligne par ligne.
@@ -112,9 +113,9 @@ public class MasterAgent extends Agent {
     }
 }
 ```
-- Test
-  - ```masterContainer```
-    Cette classe permet de démarrer le conteneur d'agents et de créer l'agent central qui sera chargé de recevoir les Q-tables des agents individuels. 
+#### Test
+##### ```masterContainer```
+Cette classe permet de démarrer le conteneur d'agents et de créer l'agent central qui sera chargé de recevoir les Q-tables des agents individuels. 
 ```java
 public class MasterContainer {
     public static void main(String[] args) throws StaleProxyException {
@@ -127,8 +128,8 @@ public class MasterContainer {
     }
 }
 ```
-   - ```SimpleContainer```
-     Cette classe permet de démarrer le conteneur d'agents et de créer les agents individuels qui vont apprendre à résoudre la grille et envoyer leurs Q-tables à l'agent central.
+##### ```SimpleContainer```
+Cette classe permet de démarrer le conteneur d'agents et de créer les agents individuels qui vont apprendre à résoudre la grille et envoyer leurs Q-tables à l'agent central.
 ``` java
 public class SimpleContainer {
     public static void main(String[] args) throws StaleProxyException {
@@ -147,7 +148,7 @@ public class SimpleContainer {
     }
 }
 ```
-- Maincontainer
+#### Maincontainer
   La classe MainContainer est responsable du démarrage du conteneur principal de l'environnement d'exécution JADE
 ```java
 public class MainContainer {

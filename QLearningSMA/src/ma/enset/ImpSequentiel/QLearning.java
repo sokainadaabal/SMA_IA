@@ -1,8 +1,6 @@
 package ma.enset.ImpSequentiel;
 
 import ma.enset.QLUtils;
-
-import java.util.Arrays;
 import java.util.Random;
 
 public class QLearning {
